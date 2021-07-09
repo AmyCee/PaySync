@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:visibility="visible"
+    tools:context=".Sign_Up_Screen_38_Activity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        app:srcCompat="@drawable/bluegroup9864" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="232dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/nunito"
+        android:text="Fill in some personal details"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="160dp"
+        android:layout_height="43dp"
+        android:background="@drawable/group_5010"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp"
+        android:text="Orofin"
+        android:textColor="#707070"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="160dp"
+        android:layout_height="46dp"
+        android:background="@drawable/group_5010"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp"
+        android:text="Oluwaseun"
+        android:textColor="#707070"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bluegroup5011"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:inputType="date"
+        android:paddingLeft="30dp"
+        android:text="19th, September 1992"
+        android:textColor="#707070"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bluegroup5011"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:hint="Preferred name (Optional)"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp"
+        android:textColor="#80707070"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bluegroup5011"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:hint="Select Company"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp"
+        android:textColor="#80707070"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="13.48dp"
+        android:layout_height="19.09dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443"
+        app:srcCompat="@drawable/icon_ionic_ios_arrow_down" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cant_find"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="343dp"
+        android:layout_height="46dp"
+        android:background="@drawable/group_5010"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:hint="Company name"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp"
+        android:textColor="#707070"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="54dp"
+        android:layout_height="46dp"
+        android:background="@drawable/group_5008"
+        android:backgroundTint="#707070"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"
+        app:srcCompat="@drawable/group_5008" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="7.82dp"
+        android:layout_height="13.68dp"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:background="@drawable/icon_ionic_ios_arrow_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:srcCompat="@drawable/icon_ionic_ios_arrow_back" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="243dp"
+        android:layout_height="54dp"
+        android:background="@drawable/group_6"
+        android:fontFamily="@font/nunito"
+        android:text="Proceed"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#18274B"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.559" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="11.48dp"
+        android:layout_height="15.09dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488"
+        app:srcCompat="@drawable/icon_ionic_ios_arrow_up" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="414dp"
+        android:layout_height="731dp"
+        android:background="#66888888"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_17697" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

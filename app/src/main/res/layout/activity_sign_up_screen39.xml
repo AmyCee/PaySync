@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpScreen39Activity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/group_9864" />
+
+
+    <ImageView
+        android:id="@+id/add_photo_rectangle"
+        android:layout_width="318dp"
+        android:layout_height="91dp"
+        android:src="@drawable/grey_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446" />
+
+    <ImageView
+        android:id="@+id/orange_circle"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:src="@drawable/orange_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="113dp"
+        android:layout_height="24dp"
+        android:background="@drawable/identity_check"
+        android:fontFamily="@font/nunito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="290dp"
+        android:layout_height="38dp"
+        android:background="@drawable/please_provide_your_home_address"
+        android:fontFamily="@font/nunito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/group_9753"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Add a photo ID"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:shadowColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="19.4dp"
+        android:layout_height="15.87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457"
+        app:srcCompat="@drawable/icon_feather_camera" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/your_data_is_secured"
+        android:fontFamily="@font/nunito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="54dp"
+        android:layout_height="46dp"
+        android:background="@drawable/group_5008"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"
+        app:srcCompat="@drawable/group_5008" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="7.82dp"
+        android:layout_height="13.68dp"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:background="@drawable/icon_ionic_ios_arrow_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        app:srcCompat="@drawable/icon_ionic_ios_arrow_back" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_9750"
+        android:ems="10"
+        android:fontFamily="@font/nunito"
+        android:hint="Home Address"
+        android:inputType="textPostalAddress"
+        android:paddingLeft="30dp"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group_6"
+        android:fontFamily="@font/nunito"
+        android:text="Proceed"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#18274B"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
